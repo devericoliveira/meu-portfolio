@@ -1,0 +1,21 @@
+footer {
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: $size-5;
+  font-weight: 400;
+  color: $black-full;
+  text-transform: uppercase;
+  
+  @include responsive(mobile) {
+    font-size: $size-3;
+  }
+}
+
+footer p a.link {
+  font-size: inherit;
+}

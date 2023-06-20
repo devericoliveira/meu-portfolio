@@ -1,0 +1,57 @@
+.container {
+  padding-inline: $size-3;
+  max-width: $container;
+  margin: 0 auto;
+}
+
+.tag {
+  padding: $size-1 $size-2;
+  font-size: $size-4;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  @include responsive(mobile) {
+    font-size: $size-3;
+  }
+}
+
+.link {
+  font-size: $size-5;
+  font-weight: 400;
+  color: $black-80;
+  text-decoration: underline;
+  padding: $size-1 $size-2;
+}
+
+.link--left-0 {
+  padding-left: 0;
+}
+
+.link--right-0 {
+  padding-right: 0;
+}
+
+.tag--html {
+  color: $color-html-tag;
+  background-color: $background-html-tag;
+}
+
+.tag--css {
+  color: $color-css-tag;
+  background-color: $background-css-tag;
+}
+
+.tag--sass {
+  color: $color-sass-tag;
+  background-color: $background-sass-tag;
+}
+
+.tag--javascript {
+  color: $color-javascript-tag;
+  background-color: $background-javascript-tag;
+}
+
+.tag--figma {
+  color: $color-figma-tag;
+  background-color: $background-figma-tag;
+}

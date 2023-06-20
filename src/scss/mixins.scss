@@ -1,0 +1,24 @@
+// REPONSIVE
+@mixin responsive($device) {
+  @if $device == tablet {
+    @media (max-width: 650px) {
+      @content;
+    }
+  } @else if $device == mobile {
+    @media (max-width: 420px) {
+      @content;
+    }
+  }
+}
+
+@mixin section-title() {
+  font-size: $size-8;
+  font-weight: 700;
+  color: $black-full;
+
+  margin-bottom: $size-2;
+  
+  @include responsive(mobile) {
+    font-size: $size-7;
+  }
+}

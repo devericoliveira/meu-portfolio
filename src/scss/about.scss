@@ -1,0 +1,18 @@
+.about {
+  margin-bottom: $size-12;
+}
+
+.about h2 {
+  @include section-title();
+}
+
+.about p {
+  font-size: $size-5;
+  font-weight: 400;
+  color: $black-full;
+  line-height: 1.5;
+
+  @include responsive(mobile) {
+    font-size: $size-4;
+  }
+}

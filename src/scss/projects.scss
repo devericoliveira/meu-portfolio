@@ -1,0 +1,88 @@
+.projects {
+  margin-bottom: $size-12;
+}
+
+.projects h2 {
+  @include section-title();
+}
+
+.projects-list {
+  width: 100%;
+  
+  display: grid;
+  grid-template-columns: repeat(2, 30rem);
+  justify-content: space-between;
+  gap: $size-5;
+
+  @include responsive(tablet) {
+    grid-template-columns: minmax(30rem, 40rem);
+    justify-content: center;
+  }
+}
+
+.projects-list .image-wrapper {
+  height: 20rem;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  margin-bottom: $size-2;
+}
+
+.projects-list > li {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-list ul {
+  width: 100%;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: $size-2;
+  padding: $size-2;
+}
+
+.projects-list ul .tag {
+  font-size: $size-3;
+}
+
+.projects-list .text-wrapper {
+  padding: $size-2;
+}
+
+.projects-list .text-wrapper h3 {
+  font-size: $size-7;
+  font-weight: 700;
+  color: $black-full;
+  
+  @include responsive(mobile) {
+    font-size: $size-5;
+  }
+}
+
+.projects-list .text-wrapper p {
+  font-size: $size-4;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $black-full;
+  margin-block: $size-2 $size-5;
+
+  @include responsive(mobile) {
+    font-size: $size-4;
+  }
+}
+
+.projects-list .links-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects-list .links-wrapper a {
+  @include responsive(mobile) {
+    font-size: $size-4;
+  }
+}

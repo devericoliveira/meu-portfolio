@@ -1,0 +1,29 @@
+.tools {
+  margin-bottom: $size-12;
+}
+
+.tools h2 {
+  @include section-title();
+}
+
+.tools div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tools div + div {
+  margin-top: $size-2;
+}
+
+.tools div strong {
+  font-size: $size-5;
+  font-weight: 400;
+  color: $black-full;
+}
+
+.tools div ul {
+  display: flex;
+  align-items: center;
+  gap: $size-1;
+}

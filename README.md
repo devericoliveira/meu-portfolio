@@ -1,4 +1,5 @@
-![image](https://github.com/devericoliveira/meu-portfolio/assets/134177146/55e8c226-28f7-407c-bd49-bd2aa4468f4f)
+![image](https://github.com/devericoliveira/meu-portfolio/assets/134177146/0efbd66f-eab8-4e54-aa84-3e748de99a07)
+
 
 # Portfólio Notion
 
@@ -14,4 +15,4 @@ Esse portfolio foi inspirado no aplicativo notion, eu escolhi ele justamente pel
 
 ## Visualização
 
-[Clique aqui para acessar](https://deverioliveira.github.io/meu-portfolio)
+[Clique aqui para acessar](https://devericoliveira.github.io/meu-portfolio)
